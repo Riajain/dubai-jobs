@@ -2,18 +2,31 @@ recipient: riajal97@gmail.com
 sender: riajal97@gmail.com
 
 title_match:
-  - software engineer
-  - swe
-  - backend engineer
-  - frontend engineer
-  - full stack
-  - fullstack
-  - full-stack
-  - senior software
-  - staff software
-  - principal software
-  - platform engineer
-  - distributed systems
+  - senior software engineer
+  - senior software developer
+  - senior developer
+  - senior backend engineer
+  - senior frontend engineer
+  - senior full stack
+  - senior full-stack
+  - senior fullstack
+  - senior platform engineer
+  - sr software engineer
+  - sr. software engineer
+  - staff software engineer
+  - staff engineer
+  - principal software engineer
+  - principal engineer
+  - founding engineer
+  - founding software engineer
+  - ai engineer
+  - ai/ml engineer
+  - ml engineer
+  - machine learning engineer
+  - applied ai engineer
+  - applied ml engineer
+  - applied scientist
+  - genai engineer
 
 title_exclude:
   - intern
@@ -21,9 +34,18 @@ title_exclude:
   - manager
   - director
   - vp
+  - vice president
   - head of
+  - chief
   - lead engineer
   - engineering lead
+  - tech lead
+  - technical lead
+  - consultant
+  - consulting
+  - advisor
+  - advisory
+  - associate
 
 location_match:
   - dubai
