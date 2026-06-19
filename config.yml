@@ -1,0 +1,35 @@
+recipient: riajal97@gmail.com
+sender: riajal97@gmail.com
+
+title_match:
+  - software engineer
+  - swe
+  - backend engineer
+  - frontend engineer
+  - full stack
+  - fullstack
+  - full-stack
+  - senior software
+  - staff software
+  - principal software
+  - platform engineer
+  - distributed systems
+
+title_exclude:
+  - intern
+  - internship
+  - manager
+  - director
+  - vp
+  - head of
+  - lead engineer
+  - engineering lead
+
+location_match:
+  - dubai
+  - abu dhabi
+  - uae
+  - united arab emirates
+  - remote - mena
+  - remote - uae
+  - remote, uae
