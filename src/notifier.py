@@ -38,7 +38,9 @@ def send_digest(jobs: list[Job], sender: str, recipient: str) -> None:
         return
 
     user = os.environ["GMAIL_USER"]
-    password = os.environ["GMAIL_APP_PASSWORD"]
+    # Google's app-password dialog separates the 16 chars with spaces (sometimes
+    # non-breaking U+00A0) — smtplib AUTH PLAIN requires ASCII, so normalize.
+    password = "".join(os.environ["GMAIL_APP_PASSWORD"].split())
     repo = os.environ.get("GITHUB_REPOSITORY", "")
 
     generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
