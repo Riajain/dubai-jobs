@@ -1,5 +1,4 @@
 name: Poll UAE jobs
-
 on:
   schedule:
     - cron: '*/10 * * * *'
