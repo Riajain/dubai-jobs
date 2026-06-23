@@ -4,12 +4,9 @@ companies:
     token: careem
 
   # UAE-native tech — run `python scripts/discover_ats.py <careers_url>` to fill these in
-  - name: Talabat
-    ats: TBD
-    careers_url: https://careers.talabat.com
-  - name: Noon
-    ats: TBD
-    careers_url: https://careers.noon.com
+  # Talabat: uses Attrax via careers.deliveryhero.com (no adapter); covered via
+  # company-specific LinkedIn query below.
+  # Noon: careers site is anti-bot-walled; covered via LinkedIn query below.
   - name: Property Finder
     ats: TBD
     careers_url: https://www.propertyfinder.com/en/careers
@@ -66,5 +63,13 @@ linkedin:
       location: Abu Dhabi, United Arab Emirates
     - keywords: senior software engineer
       location: United Arab Emirates
+    - keywords: software developer
+      location: Dubai, United Arab Emirates
+    - keywords: software developer
+      location: Abu Dhabi, United Arab Emirates
+    - keywords: Talabat
+      location: Dubai, United Arab Emirates
+    - keywords: Noon
+      location: Dubai, United Arab Emirates
   results_per_query: 25
   hours_old: 24
